@@ -9,6 +9,7 @@ module.exports = {
   plugins: [
     "gatsby-plugin-sass",
     "gatsby-plugin-react-helmet",
+    "gatsby-plugin-gatsby-cloud",
     {
       resolve: "sass-resources-loader",
       options: {
