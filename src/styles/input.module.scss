@@ -1,0 +1,12 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    input {
+        width: 100%;
+        padding: 1em;
+        margin: 1em;
+    }
+}

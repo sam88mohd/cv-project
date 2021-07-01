@@ -1,0 +1,17 @@
+.container {
+  width: 80%;
+  .listTask {
+    border: 1px solid black;
+    padding: 1em;
+    margin: 1em ;
+    background-color: wheat;
+    display: flex;
+    justify-content: space-between;
+    .closeIcon {
+        &:hover {
+            color: rgb(51, 51, 218);
+            cursor: pointer;
+        }
+    }
+  }
+}

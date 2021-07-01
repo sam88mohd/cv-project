@@ -6,5 +6,17 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [],
+  plugins: [
+    "gatsby-plugin-sass",
+    "gatsby-plugin-react-helmet",
+    {
+      resolve: "sass-resources-loader",
+      options: {
+        resources: ["./src/styles/mixin.scss"],
+      },
+    },
+  ],
+  siteMetadata: {
+    title: "CV Creator",
+  },
 }

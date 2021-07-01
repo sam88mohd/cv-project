@@ -1,0 +1,17 @@
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  button {
+    padding: 1em 5em;
+    border: none;
+    border-radius: 20px;
+    background-color: cornflowerblue;
+    color: white;
+    &:hover {
+      cursor: pointer;
+      background-color: darkblue;
+    }
+  }
+}
